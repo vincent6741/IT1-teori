@@ -23,7 +23,7 @@ h1{
     align-items: center;
     justify-content: space-between;
     background-color: aliceblue;
-
+    gap: 40px;
 }
 
 .cpu{
