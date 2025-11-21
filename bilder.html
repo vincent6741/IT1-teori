@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <h1>Bilder</h1>
+        <h2>Piksler</h2>
+        <p>Et digitalt bilde består av piksler (pixels), som er små fargepunkter.
+            Når du ser et bilde på en skjerm, er det egentlig tusenvis eller millioner av disse små punktene som til sammen
+            danner motivet.</p>
+        <ul>
+            <li>Få piksler = lav oppløsning, mer kornete bilde</li>
+            <li>Mange piksler = høy oppløsning, skarpere bilde</li>
+        </ul>
+        <h2>Rastergrafikk</h2>
+        <p>Rasterbilder lagres som et rutenett av piksler.Dette er formatet som brukes til fotograferte bilder.</p>
+        <h3>Vanlige rasterformater:</h3>
+        <ul>
+            <li>JPG/JPEG - komprimert, små filer, litt kvalitetstap</li>
+            <li>PNG - tapsfri komprimering, støtter gjennomsiktighet</li>
+        </ul>
+        <div class="eksempel">
+            <h3>Eksempel</h3>
+            <p>Et bilde som er 1920 x 1080</p>
+            <p>Inneholder 1920 x 1080 = 2 073 600 piksler (ca. 2 megapiksler).</p>
+        </div>
+        <h2>Farger</h2>
+        <p>Hver piksel lagrer farge som tall. Mest vanlig er RGB og RGBA</p>
+        <h3>RGB (Red, Green, Blue)</h3>
+        <p>Tre verdier fra 0 til 255 som til sammen beskriver en farge.</p>
+        <h3>Eksempel</h3>
+        <ul>
+            <li>RGB(0, 255, 0) = grønn</li>
+            <li>RGB(255, 0, 0) = rød</li>
+        </ul>
+        <h3>RGBA - med gjennomsiktighet</h3>
+        <p>Har en ekstra verdi, A = Alpha, fra 0 til 1. 0 er helt gjennomsiktig</p>
+        <h3>Eksempel</h3>
+        <ul>
+            <li>RGBA(255, 0, 0, 0.5) = halvtransparent rød</li>
+        </ul>
+        <h2>Komprimering av bilder</h2>
+        <p>Bilder kan ta mye plass. Derfor brukes komprimering for å gjøre filene mindre.</p>
+        <h3>Tapsbasert komprimering (lossy)</h3>
+        <ul>
+            <li>Fjerner noe informasjon</li>
+            <li>Gir mindre filer</li>
+            <li>Litt dårligere kvalitet</li>
+            <li>Brukes i: JPG, WebP (lossy)</li>
+        </ul>
+        <h3>Eksempel</h3>
+        <ul>
+            <li>Et kamera tar et JPG-bilde → filen blir liten, men litt uskarp i detaljer</li>
+        </ul>
+        <h3>Tapsfri komprimering (lossless)</h3>
+        <ul>
+            <li>Mister ingen informasjon</li>
+            <li>Større filer</li>
+            <li>Brukes i: PNG, TIFF, WebP (lossless)</li>
+        </ul>
+        <h3>Eksempel</h3>
+        <ul>
+            <li>En logo lagres som PNG → kvaliteten er perfekt</li>
+        </ul>
+    </section>
+</body>
+
+</html>
